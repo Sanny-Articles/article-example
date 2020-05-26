@@ -18,7 +18,7 @@ deploy:
   provider: releases
   api_key:
     secure: pINAy7TxdjrYrDAuoAG94f7WzSXfjZg4LNJSHT06plZouD6D856D51P1fm2B2bn+vK8LgprGce1zWStp8ShyJlHorfi3L079PTg0cRbLSgXhVORLz2jNb/8rlNWeNYvNd745nqKVbplSxHbRq2BaQ9y7D9v2UHFEnmAEVHY404LYUk+B+jCuwYhIpCX3WQVBrJsL/+8DxK6ZIS+hUBArVjH4HinHoBncc/5B+b3o8qzMZKqaJeZpDhkvLqj3sDJ0sz3Wa/RtIRMG+U5dUE3XVZ7lyz7TWhvU2GwD2HZEDzmzdTP5kT8+tEZWxLzkxEU7iQUonwwU/Qu74BBAC2Pyn7l0ZpvGq3cO2uxE8l3Z+oFxaqSdVgVu/I29rXjZdE8Oicu4l9BIxHjVR+XbDR5FwtCGDZLCr9A+EEj60AhN0FcJb4K3xhcubMU9TmOy9mwokjqwfsAZI8CgRSKR+0X/C750f9y8KKGxK3rUdJpze6HseCW57NIFdzgpGTBvxY2E2Mb5rZHbuHgyYAVi+a76I7fAA0+FJUIccdwJ/wm/uD/45+OfRh9m7Se2eRDXCvIY3qlf8L3Pvs92pC6izWaJkYBRO4PJ2qfdKwROmM+1ok+RclM3VvOdtcoBJ49+v22PTkOsxtfEuqdQk/crkKTQQzzMBcqGTdPzorZpG4NtM+s=
-  file: src/main.pdf
+  file: main.pdf
   on:
     repo: Sanny-Articles/article-example
   skip_cleanup: 'true'
