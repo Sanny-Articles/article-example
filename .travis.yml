@@ -1,0 +1,19 @@
+language: minimal
+
+before_install:
+    - sudo apt-get update
+
+addons:
+    apt:
+        packages:
+            - libpcre3
+            - libpcre3-dev
+            - chktex
+            - texlive-full
+
+script:
+    - cd src
+    - pdflatex main.tex
+    - bibtex main.aux
+    - pdflatex main.tex
+    - pdflatex main.tex
