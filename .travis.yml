@@ -24,4 +24,4 @@ deploy:
   on:
     repo: Sanny-Articles/article-example
     tags: true
-  cleanup: false
+  skip_cleanup: true
