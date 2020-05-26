@@ -23,6 +23,5 @@ deploy:
   file: main.pdf
   on:
     repo: Sanny-Articles/article-example
-  cleanup: false
-  on:
     tags: true
+  cleanup: false
