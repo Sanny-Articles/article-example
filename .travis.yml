@@ -21,4 +21,6 @@ deploy:
   file: main.pdf
   on:
     repo: Sanny-Articles/article-example
-  skip_cleanup: 'true'
+  skip_cleanup: true
+  on:
+    tags: true
